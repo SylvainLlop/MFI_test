@@ -7,7 +7,7 @@ from peak_app.views import PeakViewSet, PeaksInArea, map
 
 
 router = routers.DefaultRouter()
-router.register(r'peaks', PeakViewSet)
+router.register(r'peaks', PeakViewSet, basename='peaks')
 
 
 urlpatterns = [
