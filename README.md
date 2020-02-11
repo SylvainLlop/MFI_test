@@ -3,6 +3,7 @@
 Git repository for MFI test 1 - Peak API
 
 ### Project realised with:
+>>>>>>> 92f033f7202f78f2867d0fe544e1580e7a955142
  - Python 3.6
  - Django Rest Framework
  - PostgreSQL database
@@ -13,6 +14,7 @@ Git repository for MFI test 1 - Peak API
    - User and password given in settings.py
    - Dump file available at project root ```peaks.dump```
  - Launch application on test server  ```manage.py runserver```
+<<<<<<< HEAD
 
 ### Data available at (for dev server, precede with ```http://localhost:8000/```:
  - API to create/read/update/delete a peak
@@ -23,9 +25,5 @@ Git repository for MFI test 1 - Peak API
    ```peaks/map```
  - API documentation
    ```peaks/api/docs```
-
-
-
-
 
 
