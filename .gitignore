@@ -1,2 +1,5 @@
 env/
 __pycache__/
+peak_app/__pycache__/
+peak_project/__pycache__/
+.idea/
