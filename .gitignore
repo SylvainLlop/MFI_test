@@ -1,5 +1,5 @@
+.idea/
 env/
 __pycache__/
-peak_app/__pycache__/
-peak_project/__pycache__/
-.idea/
+peak_project/peak_app/__pycache__/
+peak_project/peak_project/__pycache__/
