@@ -9,9 +9,11 @@ Git repository for MFI test 1 - Peak API
 
 ### To launch:
  - Install modules listed in requirements file  ```pip install -r requirements.txt```
- - Create PostgreSQL database 'peaks'
-   - User and password given in settings.py
-   - Dump file available at project root ```peaks.dump```
+ - Create PostgreSQL database 'peaks':
+   - Enter PostgreSQL command: ```psql -U postgres``` with password: ```postgre```
+   - Create db: ```CREATE DATABASE peaks;```
+   - Exit the PostgreSQL command: ```exit```
+   - Restore the available dump file (optional): ```psql -U postgres peaks < ../peaks.dump```
  - Launch application on test server  ```manage.py runserver```
 
 ### Data available at (for dev server, precede with ```http://localhost:8000/```:

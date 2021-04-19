@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'peaks',
         'USER': 'postgres',
         'PASSWORD': 'postgre',
-        'HOST': '',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
